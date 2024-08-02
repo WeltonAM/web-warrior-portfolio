@@ -13,6 +13,7 @@ export default function Layout({ children }) {
       }
     }
   `)
+
   const { copyright } = data.site.siteMetadata
 
   return (
@@ -23,6 +24,7 @@ export default function Layout({ children }) {
       </div>
       <footer>
         <p>{copyright}</p>
+        <span>By <a target="_blank" href="https://github.com/WeltonAM">Welton Matos Dev</a></span>
       </footer>
     </div>
   )
