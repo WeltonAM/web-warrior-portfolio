@@ -5,7 +5,6 @@ import { Link, graphql } from 'gatsby'
 import Img from "gatsby-image"
 
 const Projects = ({ data }) => {
-  console.log(data)
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
